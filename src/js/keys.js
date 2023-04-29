@@ -1,31 +1,31 @@
 const KeysData = [
     {
       keyCode: 'Backquote',
-      textEn: '`',
-      textEnShift: '~',
-      textBy: 'ё',
-      textByShift: 'Ё'
+      charEn: '`',
+      shiftEn: '~',
+      charBlr: 'ё',
+      shiftBlr: 'Ё'
     },
     {
       keyCode: 'Digit1',
-      textEn: '1',
-      textEnShift: '!',
-      textBy: '1',
-      textByShift: '!'
+      charEn: '1',
+      shiftEn: '!',
+      charBlr: '1',
+      shiftBlr: '!'
     },
     {
       keyCode: 'Digit2',
-      textEn: '2',
-      textEnShift: '@',
-      textBy: '2',
-      textByShift: '\\'
+      charEn: '2',
+      shiftEn: '@',
+      charBlr: '2',
+      shiftBlr: '\\'
     },
     {
       keyCode: 'Digit3',
-      textEn: '3',
-      textEnShift: '#',
-      textBy: '3',
-      textByShift: '№'
+      charEn: '3',
+      shiftEn: '#',
+      charBlr: '3',
+      shiftBlr: '№'
     },
     {
       keyCode: 'Digit4',
