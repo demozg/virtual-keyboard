@@ -1,4 +1,4 @@
-class Keyboard {
+export class Keyboard {
     constructor(keys) {
         this.keys = keys;
         this.keysWrapper = [];
@@ -35,10 +35,8 @@ class Keyboard {
                 this.keysWrapper.insertAdjacentHTML('beforeend', '<div class="keyboard__row"></div>');
                 this.keyboardRow = document.querySelector('.keyboard__row:last-child');
             }
-            this.keyboardRow.insertAdjacentHTML('beforeend', `<div class="keyboard__btn" data-keyCode="${key.keyCode}">${key[`text${this.language}`]}</div>`);
+            this.keyboardRow.insertAdjacentHTML('beforeend', `<div class="keyboard__btn" data-keyCode="${key.keyCode}">${key[`char${this.language}`]}</div>`);
         });
         this.keyboardButtons = document.querySelectorAll('.keyboard__btn');
     }
 }
-
-export { Keyboard };

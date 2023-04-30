@@ -1,4 +1,4 @@
-const KeysData = [
+export const KeysData = [
     {
       keyCode: 'Backquote',
       charEn: '`',
@@ -441,5 +441,3 @@ const KeysData = [
       shiftBlr: '→'
     }
 ];
-  
-export { KeysData };

@@ -1,3 +1,2 @@
-import { KeysData } from './js/keys';
-import { Keyboard } from './js/CreateKeyboard';
-import './style.css';
+import { KeysData } from './js/keys.js';
+import { Keyboard } from './js/CreateKeyboard.js';
