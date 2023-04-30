@@ -28,7 +28,7 @@ export class Keyboard {
         this.keyboard.insertAdjacentHTML('beforeend', '<textarea class="keyboard__textarea" autofocus="true" rows="5"></textarea>');
         this.textArea = document.querySelector('.keyboard__textarea');
         this.keyboard.insertAdjacentHTML('beforeend', '<div class="keyboard__wrapper"></div>');
-        this.keyboard.insertAdjacentHTML('beforeend', '<div class="keyboard__text">Press Ctrl + Shift for change language</div>');
+        this.keyboard.insertAdjacentHTML('beforeend', '<p class="keyboard__text">Press Ctrl + Shift for change language</p>');
         this.keysWrapper = document.querySelector('.keyboard__wrapper');
         this.keys.forEach(key => {
             if (key.keyCode === 'Backquote' || key.keyCode === 'Tab' || key.keyCode === 'CapsLock' || key.keyCode === 'ShiftLeft' || key.keyCode === 'ControlLeft') {
@@ -78,5 +78,66 @@ export class Keyboard {
         if (pressedKey) {
             pressedKey.classList.remove('active');
         }
+    }
+
+    inputText(keyCode) {
+        let selection = this.textArea.selectionStart;
+        let symbols = this.textArea.value;
+        this.textArea.focus();
+        let blank;
+        switch (keyCode) {
+            case 'Backspace':
+                this.addBackspace();
+                return;
+            case 'Enter':
+                blank = '\n';
+                break;
+            case 'Tab':
+                blank = '\t';
+                break;
+            case 'CapsLock':
+                blank = '';
+                this.addCapsLock();
+                break;
+            case 'Shift':
+                blank = '';
+                break;
+            case 'Ctrl':
+                blank = '';
+                break;
+            case 'MetaLeft':
+                blank = '';
+                break;
+            case 'Alt':
+                blank = '';
+                break;
+            default:
+                blank = keyCode;
+        }
+        this.textArea.value = symbols.slice(0, selection) + blank + symbols.slice(selection);
+        this.textArea.selectionStart = selection + 1;
+        this.textArea.selectionEnd = selection + 1;
+    }
+
+    addCapsLock() {
+        if (this.shift === '') {
+            this.shift = 'Shift';
+            document.querySelector('.keyboard__btn[data-keycode=CapsLock]').classList.add('active');
+        } else {
+            this.shift = '';
+            document.querySelector('.keyboard__btn[data-keycode=CapsLock]').classList.remove('active');
+        }
+        this.changeKeyboardKeys();
+    }
+
+    addBackspace() {
+        let selection = this.textArea.selectionStart;
+        if (selection === 0) {
+            return;
+        }
+        let symbols = this.textArea.value;
+        this.textArea.value = symbols.slice(0, selection - 1) + symbols.slice(selection);
+        this.textArea.selectionStart = selection - 1;
+        this.textArea.selectionEnd = selection - 1;
     }
 }
