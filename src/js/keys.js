@@ -2,442 +2,442 @@ export const KeysData = [
     {
       keyCode: 'Backquote',
       charEn: '`',
-      shiftEn: '~',
+      charEnShift: '~',
       charBlr: 'ё',
-      shiftBlr: 'Ё'
+      charBlrShift: 'Ё'
     },
     {
       keyCode: 'Digit1',
       charEn: '1',
-      shiftEn: '!',
+      charEnShift: '!',
       charBlr: '1',
-      shiftBlr: '!'
+      charBlrShift: '!'
     },
     {
       keyCode: 'Digit2',
       charEn: '2',
-      shiftEn: '@',
+      charEnShift: '@',
       charBlr: '2',
-      shiftBlr: '\\'
+      charBlrShift: '\\'
     },
     {
       keyCode: 'Digit3',
       charEn: '3',
-      shiftEn: '#',
+      charEnShift: '#',
       charBlr: '3',
-      shiftBlr: '№'
+      charBlrShift: '№'
     },
     {
       keyCode: 'Digit4',
       charEn: '4',
-      shiftEn: '$',
+      charEnShift: '$',
       charBlr: '4',
-      shiftBlr: ';'
+      charBlrShift: ';'
     },
     {
       keyCode: 'Digit5',
       charEn: '5',
-      shiftEn: '%',
+      charEnShift: '%',
       charBlr: '5',
-      shiftBlr: '%'
+      charBlrShift: '%'
     },
     {
       keyCode: 'Digit6',
       charEn: '6',
-      shiftEn: '^',
+      charEnShift: '^',
       charBlr: '6',
-      shiftBlr: ':'
+      charBlrShift: ':'
     },
     {
       keyCode: 'Digit7',
       charEn: '7',
-      shiftEn: '&',
+      charEnShift: '&',
       charBlr: '7',
-      shiftBlr: '?'
+      charBlrShift: '?'
     },
     {
       keyCode: 'Digit8',
       charEn: '8',
-      shiftEn: '*',
+      charEnShift: '*',
       charBlr: '8',
-      shiftBlr: '*'
+      charBlrShift: '*'
     },
     {
       keyCode: 'Digit9',
       charEn: '9',
-      shiftEn: '(',
+      charEnShift: '(',
       charBlr: '9',
-      shiftBlr: '('
+      charBlrShift: '('
     },
     {
       keyCode: 'Digit0',
       charEn: '0',
-      shiftEn: ')',
+      charEnShift: ')',
       charBlr: '0',
-      shiftBlr: ')'
+      charBlrShift: ')'
     },
     {
       keyCode: 'Minus',
       charEn: '-',
-      shiftEn: '_',
+      charEnShift: '_',
       charBlr: '-',
-      shiftBlr: '_'
+      charBlrShift: '_'
     },
     {
       keyCode: 'Equal',
       charEn: '=',
-      shiftEn: '+',
+      charEnShift: '+',
       charBlr: '=',
-      shiftBlr: '+'
+      charBlrShift: '+'
     },
     {
       keyCode: 'Backspace',
       charEn: 'Backspace',
-      shiftEn: 'Backspace',
+      charEnShift: 'Backspace',
       charBlr: 'Backspace',
-      shiftBlr: 'Backspace'
+      charBlrShift: 'Backspace'
     },
     {
       keyCode: 'Tab',
       charEn: 'Tab',
-      shiftEn: 'Tab',
+      charEnShift: 'Tab',
       charBlr: 'Tab',
-      shiftBlr: 'Tab'
+      charBlrShift: 'Tab'
     },
     {
       keyCode: 'KeyQ',
       charEn: 'q',
-      shiftEn: 'Q',
+      charEnShift: 'Q',
       charBlr: 'й',
-      shiftBlr: 'Й'
+      charBlrShift: 'Й'
     },
     {
       keyCode: 'KeyW',
       charEn: 'w',
-      shiftEn: 'W',
+      charEnShift: 'W',
       charBlr: 'ц',
-      shiftBlr: 'Ц'
+      charBlrShift: 'Ц'
     },
     {
       keyCode: 'KeyE',
       charEn: 'e',
-      shiftEn: 'E',
+      charEnShift: 'E',
       charBlr: 'у',
-      shiftBlr: 'У'
+      charBlrShift: 'У'
     },
     {
       keyCode: 'KeyR',
       charEn: 'r',
-      shiftEn: 'R',
+      charEnShift: 'R',
       charBlr: 'к',
-      shiftBlr: 'К'
+      charBlrShift: 'К'
     },
     {
       keyCode: 'KeyT',
       charEn: 't',
-      shiftEn: 'T',
+      charEnShift: 'T',
       charBlr: 'е',
-      shiftBlr: 'Е'
+      charBlrShift: 'Е'
     },
     {
       keyCode: 'KeyY',
       charEn: 'y',
-      shiftEn: 'Y',
+      charEnShift: 'Y',
       charBlr: 'н',
-      shiftBlr: 'Н'
+      charBlrShift: 'Н'
     },
     {
       keyCode: 'KeyU',
       charEn: 'u',
-      shiftEn: 'U',
+      charEnShift: 'U',
       charBlr: 'г',
-      shiftBlr: 'Г'
+      charBlrShift: 'Г'
     },
     {
       keyCode: 'KeyI',
       charEn: 'i',
-      shiftEn: 'I',
+      charEnShift: 'I',
       charBlr: 'ш',
-      shiftBlr: 'Ш'
+      charBlrShift: 'Ш'
     },
     {
       keyCode: 'KeyO',
       charEn: 'o',
-      shiftEn: 'O',
+      charEnShift: 'O',
       charBlr: 'ў',
-      shiftBlr: 'Ў'
+      charBlrShift: 'Ў'
     },
     {
       keyCode: 'KeyP',
       charEn: 'p',
-      shiftEn: 'P',
+      charEnShift: 'P',
       charBlr: 'з',
-      shiftBlr: 'З'
+      charBlrShift: 'З'
     },
     {
       keyCode: 'BracketLeft',
       charEn: '[',
-      shiftEn: '{',
+      charEnShift: '{',
       charBlr: 'х',
-      shiftBlr: 'Х'
+      charBlrShift: 'Х'
     },
     {
       keyCode: 'BracketRight',
       charEn: ']',
-      shiftEn: '}',
+      charEnShift: '}',
       charBlr: "'",
-      shiftBlr: "'"
+      charBlrShift: "'"
     },
     {
       keyCode: 'Backslash',
       charEn: '\\',
-      shiftEn: '|',
+      charEnShift: '|',
       charBlr: '\\',
-      shiftBlr: '/'
+      charBlrShift: '/'
     },
     {
       keyCode: 'CapsLock',
       charEn: 'CapsLock',
-      shiftEn: 'CapsLock',
+      charEnShift: 'CapsLock',
       charBlr: 'CapsLock',
-      shiftBlr: 'CapsLock'
+      charBlrShift: 'CapsLock'
     },
     {
       keyCode: 'KeyA',
       charEn: 'a',
-      shiftEn: 'A',
+      charEnShift: 'A',
       charBlr: 'ф',
-      shiftBlr: 'Ф'
+      charBlrShift: 'Ф'
     },
     {
       keyCode: 'KeyS',
       charEn: 's',
-      shiftEn: 'S',
+      charEnShift: 'S',
       charBlr: 'ы',
-      shiftBlr: 'Ы'
+      charBlrShift: 'Ы'
     },
     {
       keyCode: 'KeyD',
       charEn: 'd',
-      shiftEn: 'D',
+      charEnShift: 'D',
       charBlr: 'в',
-      shiftBlr: 'В'
+      charBlrShift: 'В'
     },
     {
       keyCode: 'KeyF',
       charEn: 'f',
-      shiftEn: 'F',
+      charEnShift: 'F',
       charBlr: 'а',
-      shiftBlr: 'А'
+      charBlrShift: 'А'
     },
     {
       keyCode: 'KeyG',
       charEn: 'g',
-      shiftEn: 'G',
+      charEnShift: 'G',
       charBlr: 'п',
-      shiftBlr: 'П'
+      charBlrShift: 'П'
     },
     {
       keyCode: 'KeyH',
       charEn: 'h',
-      shiftEn: 'H',
+      charEnShift: 'H',
       charBlr: 'р',
-      shiftBlr: 'Р'
+      charBlrShift: 'Р'
     },
     {
       keyCode: 'KeyJ',
       charEn: 'j',
-      shiftEn: 'J',
+      charEnShift: 'J',
       charBlr: 'о',
-      shiftBlr: 'О'
+      charBlrShift: 'О'
     },
     {
       keyCode: 'KeyK',
       charEn: 'k',
-      shiftEn: 'K',
+      charEnShift: 'K',
       charBlr: 'л',
-      shiftBlr: 'Л'
+      charBlrShift: 'Л'
     },
     {
       keyCode: 'KeyL',
       charEn: 'l',
-      shiftEn: 'L',
+      charEnShift: 'L',
       charBlr: 'д',
-      shiftBlr: 'Д'
+      charBlrShift: 'Д'
     },
     {
       keyCode: 'Semicolon',
       charEn: ';',
-      shiftEn: ':',
+      charEnShift: ':',
       charBlr: 'ж',
-      shiftBlr: 'Ж'
+      charBlrShift: 'Ж'
     },
     {
       keyCode: 'Quote',
       charEn: "'",
-      shiftEn: '\\',
+      charEnShift: '\\',
       charBlr: 'э',
-      shiftBlr: 'Э'
+      charBlrShift: 'Э'
     },
     {
       keyCode: 'Enter',
       charEn: 'Enter',
-      shiftEn: 'Enter',
+      charEnShift: 'Enter',
       charBlr: 'Enter',
-      shiftBlr: 'Enter'
+      charBlrShift: 'Enter'
     },
     {
       keyCode: 'ShiftLeft',
       charEn: 'Shift',
-      shiftEn: 'Shift',
+      charEnShift: 'Shift',
       charBlr: 'Shift',
-      shiftBlr: 'Shift'
+      charBlrShift: 'Shift'
     },
     {
       keyCode: 'KeyZ',
       charEn: 'z',
-      shiftEn: 'Z',
+      charEnShift: 'Z',
       charBlr: 'я',
-      shiftBlr: 'Я'
+      charBlrShift: 'Я'
     },
     {
       keyCode: 'KeyX',
       charEn: 'x',
-      shiftEn: 'X',
+      charEnShift: 'X',
       charBlr: 'ч',
-      shiftBlr: 'Ч'
+      charBlrShift: 'Ч'
     },
     {
       keyCode: 'KeyC',
       charEn: 'c',
-      shiftEn: 'C',
+      charEnShift: 'C',
       charBlr: 'с',
-      shiftBlr: 'С'
+      charBlrShift: 'С'
     },
     {
       keyCode: 'KeyV',
       charEn: 'v',
-      shiftEn: 'V',
+      charEnShift: 'V',
       charBlr: 'м',
-      shiftBlr: 'М'
+      charBlrShift: 'М'
     },
     {
       keyCode: 'KeyB',
       charEn: 'b',
-      shiftEn: 'B',
+      charEnShift: 'B',
       charBlr: 'і',
-      shiftBlr: 'І'
+      charBlrShift: 'І'
     },
     {
       keyCode: 'KeyN',
       charEn: 'n',
-      shiftEn: 'N',
+      charEnShift: 'N',
       charBlr: 'т',
-      shiftBlr: 'Т'
+      charBlrShift: 'Т'
     },
     {
       keyCode: 'KeyM',
       charEn: 'm',
-      shiftEn: 'M',
+      charEnShift: 'M',
       charBlr: 'ь',
-      shiftBlr: 'Ь'
+      charBlrShift: 'Ь'
     },
     {
       keyCode: 'Comma',
       charEn: ',',
-      shiftEn: '<',
+      charEnShift: '<',
       charBlr: 'б',
-      shiftBlr: 'Б'
+      charBlrShift: 'Б'
     },
     {
       keyCode: 'Period',
       charEn: '.',
-      shiftEn: '>',
+      charEnShift: '>',
       charBlr: 'ю',
-      shiftBlr: 'Ю'
+      charBlrShift: 'Ю'
     },
     {
       keyCode: 'Slash',
       charEn: '/',
-      shiftEn: '?',
+      charEnShift: '?',
       charBlr: '.',
-      shiftBlr: ','
+      charBlrShift: ','
     },
     {
       keyCode: 'ArrowUp',
       charEn: '↑',
-      shiftEn: '↑',
+      charEnShift: '↑',
       charBlr: '↑',
-      shiftBlr: '↑'
+      charBlrShift: '↑'
     },
     {
       keyCode: 'ShiftRight',
       charEn: 'Shift',
-      shiftEn: 'Shift',
+      charEnShift: 'Shift',
       charBlr: 'Shift',
-      shiftBlr: 'Shift'
+      charBlrShift: 'Shift'
     },
     {
       keyCode: 'ControlLeft',
       charEn: 'Ctrl',
-      shiftEn: 'Ctrl',
+      charEnShift: 'Ctrl',
       charBlr: 'Ctrl',
-      shiftBlr: 'Ctrl'
+      charBlrShift: 'Ctrl'
     },
     {
       keyCode: 'MetaLeft',
       charEn: '',
-      shiftEn: '',
+      charEnShift: '',
       charBlr: '',
-      shiftBlr: ''
+      charBlrShift: ''
     },
     {
       keyCode: 'AltLeft',
       charEn: 'Alt',
-      shiftEn: 'Alt',
+      charEnShift: 'Alt',
       charBlr: 'Alt',
-      shiftBlr: 'Alt'
+      charBlrShift: 'Alt'
     },
     {
       keyCode: 'Space',
       charEn: ' ',
-      shiftEn: ' ',
+      charEnShift: ' ',
       charBlr: ' ',
-      shiftBlr: ' '
+      charBlrShift: ' '
     },
     {
       keyCode: 'AltRight',
       charEn: 'Alt',
-      shiftEn: 'Alt',
+      charEnShift: 'Alt',
       charBlr: 'Alt',
-      shiftBlr: 'Alt'
+      charBlrShift: 'Alt'
     },
     {
       keyCode: 'ControlRight',
       charEn: 'Ctrl',
-      shiftEn: 'Ctrl',
+      charEnShift: 'Ctrl',
       charBlr: 'Ctrl',
-      shiftBlr: 'Ctrl'
+      charBlrShift: 'Ctrl'
     },
     {
       keyCode: 'ArrowLeft',
       charEn: '←',
-      shiftEn: '←',
+      charEnShift: '←',
       charBlr: '←',
-      shiftBlr: '←'
+      charBlrShift: '←'
     },
     {
       keyCode: 'ArrowDown',
       charEn: '↓',
-      shiftEn: '↓',
+      charEnShift: '↓',
       charBlr: '↓',
-      shiftBlr: '↓'
+      charBlrShift: '↓'
     },
     {
       keyCode: 'ArrowRight',
       charEn: '→',
-      shiftEn: '→',
+      charEnShift: '→',
       charBlr: '→',
-      shiftBlr: '→'
+      charBlrShift: '→'
     }
 ];
