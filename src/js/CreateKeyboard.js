@@ -3,9 +3,8 @@ export class Keyboard {
         this.keys = keys;
         this.keysWrapper = [];
         this.keyboardButtons = [];
-        this.doc = [];
+        this.body = [];
         this.textArea = [];
-        this.textPosition = 0;
         this.language = 'En';
         this.shift = '';
         this.getLocalStorage();
@@ -139,5 +138,51 @@ export class Keyboard {
         this.textArea.value = symbols.slice(0, selection - 1) + symbols.slice(selection);
         this.textArea.selectionStart = selection - 1;
         this.textArea.selectionEnd = selection - 1;
+    }
+
+    keyboardActions() {
+        this.body = document.querySelector('body');
+        this.body.addEventListener('keydown', (event) => {
+            this.addPressedKey(event.code);
+            if (event.key === 'Shift') {
+                this.keysByShift();
+            }
+            event.preventDefault();
+        });
+        this.body.addEventListener('keyup', (event) => {
+            if (event.key === 'Shift') {
+                this.keysWithoutShift();
+            }
+            if ((event.key === 'Shift' && event.ctrlKey)) {
+                this.changeLanguage();
+            }
+            this.removePressedKey(event.code);
+            this.inputText(this.keys.find((e) => e.keyCode === event.code)[`char${this.language}`]);
+            event.preventDefault();
+        });
+    }
+
+    mouseActions() {
+        this.keysWrapper.addEventListener('mousedown', (event) => {
+            event.target.addEventListener('mouseout', (e) => {
+                this.removePressedKey(e.target.dataset.keycode);
+            });
+            if (event.target.dataset.keycode === 'ShiftLeft' || event.target.dataset.keycode === 'ShiftRight') {
+                this.keysByShift();
+            }
+            this.addPressedKey(event.target.dataset.keycode);
+            if (event.target.classList.contains('keyboard__btn')) {
+                this.inputText(event.target.textContent);
+            }
+            event.preventDefault();
+        });
+        this.keysWrapper.addEventListener('mouseup', (event) => {
+            if (event.target.classList.contains('keyboard__btn')) {
+                if (event.target.dataset.keycode === 'ShiftLeft' || event.target.dataset.keycode === 'ShiftRight') {
+                    this.keysWithoutShift();
+                }
+                this.removePressedKey(event.target.dataset.keycode);
+            }
+        });
     }
 }
