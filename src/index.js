@@ -1,5 +1,5 @@
-import { KeysData } from './js/Keys.js';
-import { Keyboard } from './js/CreateKeyboard.js';
+import KeysData from './js/Keys.js';
+import Keyboard from './js/ClassKeyboard.js';
 
 const virtualKeyboard = new Keyboard(KeysData);
 virtualKeyboard.createKeyboard();
