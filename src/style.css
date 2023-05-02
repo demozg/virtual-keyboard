@@ -8,8 +8,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
+  padding: 0 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,12 +24,14 @@ body {
 }
 
 .keyboard__textarea {
-  width: 85%;
+  width: 97%;
+  max-width: 100%;
   font-size: calc(12px + 0.5vw);
+  background-color: #cedade;
 }
 
 .keyboard__wrapper {
-  width: 90%;
+  width: 97%;
   margin: 3vw 0;
   padding: 0.8vw;
   display: flex;
@@ -54,7 +57,7 @@ body {
 }
 
 .keyboard__btn {
-  width: 5.5%;
+  width: 5.5vw;
   height: 3.5vw;
   display: flex;
   justify-content: center;
@@ -88,15 +91,15 @@ body {
 .keyboard__btn[data-keycode=Backspace],
 .keyboard__btn[data-keycode=CapsLock],
 .keyboard__btn[data-keycode=Enter] {
-  width: 11%;
+  width: 14vw;
 }
 
 .keyboard__btn[data-keycode=Tab] {
-  width: 9%;
+  width: 9vw;
 }
 
 .keyboard__btn[data-keycode=ShiftLeft] {
-  width: 13%;
+  width: 13vw;
 }
 
 .keyboard__btn[data-keycode=ArrowUp],
@@ -106,9 +109,9 @@ body {
 .keyboard__btn[data-keycode=ArrowLeft],
 .keyboard__btn[data-keycode=ArrowDown],
 .keyboard__btn[data-keycode=ArrowRight] {
-  width: 9%;
+  width: 9vw;
 }
 
 .keyboard__btn[data-keycode=Space] {
-  width: 34%;
+  width: 34vw;
 }

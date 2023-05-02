@@ -25,9 +25,10 @@ class Keyboard {
     document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="container"></div>');
     this.keyboard = document.querySelector('.container');
     this.keyboard.insertAdjacentHTML('beforeend', '<h1 class="keyboard__title">Virtual Keyboard</h1>');
-    this.keyboard.insertAdjacentHTML('beforeend', '<textarea class="keyboard__textarea" autofocus="true" rows="5"></textarea>');
+    this.keyboard.insertAdjacentHTML('beforeend', '<textarea class="keyboard__textarea" autofocus="true" rows="7"></textarea>');
     this.textArea = document.querySelector('.keyboard__textarea');
     this.keyboard.insertAdjacentHTML('beforeend', '<div class="keyboard__wrapper"></div>');
+    this.keyboard.insertAdjacentHTML('beforeend', '<p class="keyboard__text">Create for OS Windows</p>');
     this.keyboard.insertAdjacentHTML('beforeend', '<p class="keyboard__text">Press Ctrl + Shift for change language</p>');
     this.keysWrapper = document.querySelector('.keyboard__wrapper');
     this.keys.forEach((key) => {
