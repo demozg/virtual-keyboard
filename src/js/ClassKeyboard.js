@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 class Keyboard {
   constructor(keys) {
     this.keys = keys;
